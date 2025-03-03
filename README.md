@@ -1,12 +1,29 @@
-# Artificial Intelligence and Machine Learning with Python and KNIME 2023 Course
+# 🛒 Retail Product Detection Using YOLOv8
+📌 AI & Machine Learning Project (2024)  
+This project focuses on detecting supermarket retail products using YOLOv8 for object detection. It utilizes two datasets (Beverages & Fruits) and performs real-time inference on videos.  
 
+# 📷 Project Overview
+🎯 Goal  
+The aim of this project is to build an AI-powered retail product detection model to identify items in a supermarket video using YOLOv8.  
 
+# ✅ Key Features:
 
-# A.I-Project
+Trained YOLOv8 on merged datasets (Beverage + Fruit products).  
+Real-time object detection on images and videos.  
+Optimized for CPU (since my GPU is weak).  
+High accuracy & performance tuning using YOLOv8X.  
+👨‍🏫 Course: Artificial Intelligence  
+🎓 Instructor: Kholed Langsari  
 
-This repository contains a machine learning project focused on predicting future stock prices. The project uses historical stock data and advanced linear regression modeling to forecast stock trends for short-term periods.
+# 📂 Dataset Information  
+📌 Datasets Used  
+This project merges two datasets for retail product detection:  
+1️⃣ Beverage Containers Dataset   
+2️⃣ Fruits & Vegetables Dataset   
 
-# Overview
+After merging, the dataset contains:  
 
-The goal of this project is to provide insights into a companys stock price movements, enabling better decision-making based on data-driven predictions. This project is part of a class assignment under the guidance of Teacher Kholed Langsari.
-
+✅ Train: 17,520 images  
+✅ Valid: 1,666 images  
+✅ Test: 842 images  
+✅ Total Classes: 25 retail product categories  
